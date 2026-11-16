@@ -1,0 +1,7 @@
+# Tells Git which local secrets, virtual environments, and IDE folders to exclude from GitHub
+.env
+.idea/
+venv/
+.venv/
+__pycache__/
+*.pyc
