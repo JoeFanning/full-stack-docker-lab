@@ -25,4 +25,4 @@ PowerShell
 docker compose down
 (Your pgdata volume stays intact on disk; running docker compose up -d later brings your exact visit history back. Only docker compose down -v wipes the database volume.)
 
-Which direction would you like to take—adding a README.md, upgrading app/ to FastAPI with requirements.txt, or adding Docker healthchecks?
+ 
