@@ -17,7 +17,7 @@ RUN pip install --no-cache-dir "psycopg[binary]"
 # File Copy: Copies your local main.py file from your host machine's(your computer or a server on line) app/ directory into 
 # the container's current working directory (/app/.).
 COPY main.py .
-# CMD ["python", "-u", "main.py"]
+# CMD ["python", "-u", "main.py"] -->
 # Default Execution Command: Tells the container what command to run when it starts up. It executes Python to run your script.
 # Note on flags: The -u flag runs Python in unbuffered mode. This ensures that print statements and error logs are sent straight 
 # to the Docker console immediately without sitting in a buffer, making it much easier to monitor your app logs in real time.
